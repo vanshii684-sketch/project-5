@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align = "center"><mark> Student data collection form </mark> </h1>
+    <p> <b> Please fill all the details carefully. </b><i> All fields are mandatory. </i> <u> Make sure information is correct.</u></p>
+    <form>
+        <fieldset> 
+            <legend> Perosnal Information</legend>
+            <label> Full name: </label>
+            <input type = "text" placeholder = "Enter your full name" required>
+            <br> <br> 
+            <label> Email:</label>
+            <input type = "email" placeholder = "Enter your email address" required>
+            <br> <br> 
+            <label> Password:</label>
+            <input type ="password" placeholder = "Enter your password" required>
+            <br> <br>
+            <label> Age:</label>
+            <input type ="number" min = "0">
+            <br> <br>
+            <label> Date of birth:</label>
+            <input type = "date">
+            <br> <br>
+            <label> Upload photo:</label>
+            <input type = "file">
+            <br> <br>
+        </fieldset>
+        
+        
+        <fieldset> 
+            <legend> Academic Information</legend>
+            <label> Branch:</label>
+            <input type = "radio" name = "Branch">
+            <label> BCA</label>
+            <input type = "radio" name = "Branch">
+            <label> Btech</label>
+            <br> <br>
+            <label> Skills:</label>
+            <iput type = "checkbox" name ="Skills"></iput>
+            <label> HTML</label>
+            <input type = "checkbox" name ="Skills"></input>
+            <label> CSS</label>
+            <input type = "checkbox" name ="Skills"></input>
+            <label> JavaScript</label>
+            <input type = "checkbox" name ="Skills"></input>
+            <label> Python</label>
+            <br> <br>
+            <label> Select year:</label>
+            <select>
+                <option > First year </option>
+                <option > Second year </option>
+            </select>
+            <br> <br>
+            <label> Portfolio URL:</label>
+            <input type = "url" placeholder = "Enter your portfolio URL">
+            <br> <br>
+            <label> Study time:</label>
+            <input type = "time">
+            <br> <br>
+            <label> preferred Week:</label>
+            <input type = "week">
+            <br> <br>
+            <label> Preferred month:</label>
+            <input type = "month">
+            <br> <br>
+            <label> Date & Time of Admission:</label>
+            <input type = "datetime-local">
+            <br> <br>
+        </fieldset>
+        <fieldset>
+            <legend> Feedback</legend>
+            <label> Rate your HTML Knowledge(0-10):</label>
+            <input type = "range" min = "0" max = "10">
+            <br> <br>
+            <label> Write your feedback:</label><br> 
+            <input type = "text " placeholder = "Write your feedback here" height = " 200">
+            <br> <br>
+            <p> <mark> Note:</mark> Range is between 0 to 10.</p> 
+    </form>
+    <hr> 
+    <input type ="submit" align = "center">
+    <input type = "reset" align = "center">
+</body>
+</html>
